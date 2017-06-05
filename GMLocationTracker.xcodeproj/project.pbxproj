@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE56CDFE1EE45D7F002DAC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE56CDFD1EE45D7F002DAC46 /* AppDelegate.swift */; };
+		BE56CE001EE45D7F002DAC46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE56CDFF1EE45D7F002DAC46 /* ViewController.swift */; };
+		BE56CE031EE45D7F002DAC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE56CE011EE45D7F002DAC46 /* Main.storyboard */; };
+		BE56CE051EE45D7F002DAC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE56CE041EE45D7F002DAC46 /* Assets.xcassets */; };
+		BE56CE081EE45D7F002DAC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE56CE061EE45D7F002DAC46 /* LaunchScreen.storyboard */; };
+		C9FF1D1640DCBC74DE34FD0E /* Pods_GMLocationTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98236075395AF2E2BE5F5451 /* Pods_GMLocationTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41419780AA7756C1DC418616 /* Pods-GMLocationTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMLocationTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMLocationTracker/Pods-GMLocationTracker.release.xcconfig"; sourceTree = "<group>"; };
+		845121A877D3C69A9D32380A /* Pods-GMLocationTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMLocationTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMLocationTracker/Pods-GMLocationTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		98236075395AF2E2BE5F5451 /* Pods_GMLocationTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMLocationTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE56CDFA1EE45D7F002DAC46 /* GMLocationTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMLocationTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE56CDFD1EE45D7F002DAC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE56CDFF1EE45D7F002DAC46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE56CE021EE45D7F002DAC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE56CE041EE45D7F002DAC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE56CE071EE45D7F002DAC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE56CE091EE45D7F002DAC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE56CDF71EE45D7F002DAC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FF1D1640DCBC74DE34FD0E /* Pods_GMLocationTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A8D870E09890C42BD539D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				845121A877D3C69A9D32380A /* Pods-GMLocationTracker.debug.xcconfig */,
+				41419780AA7756C1DC418616 /* Pods-GMLocationTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38B7B092B824F94553329792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98236075395AF2E2BE5F5451 /* Pods_GMLocationTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE56CDF11EE45D7E002DAC46 = {
+			isa = PBXGroup;
+			children = (
+				BE56CDFC1EE45D7F002DAC46 /* GMLocationTracker */,
+				BE56CDFB1EE45D7F002DAC46 /* Products */,
+				16A8D870E09890C42BD539D8 /* Pods */,
+				38B7B092B824F94553329792 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE56CDFB1EE45D7F002DAC46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE56CDFA1EE45D7F002DAC46 /* GMLocationTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE56CDFC1EE45D7F002DAC46 /* GMLocationTracker */ = {
+			isa = PBXGroup;
+			children = (
+				BE56CDFD1EE45D7F002DAC46 /* AppDelegate.swift */,
+				BE56CDFF1EE45D7F002DAC46 /* ViewController.swift */,
+				BE56CE011EE45D7F002DAC46 /* Main.storyboard */,
+				BE56CE041EE45D7F002DAC46 /* Assets.xcassets */,
+				BE56CE061EE45D7F002DAC46 /* LaunchScreen.storyboard */,
+				BE56CE091EE45D7F002DAC46 /* Info.plist */,
+			);
+			path = GMLocationTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE56CDF91EE45D7F002DAC46 /* GMLocationTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE56CE0C1EE45D7F002DAC46 /* Build configuration list for PBXNativeTarget "GMLocationTracker" */;
+			buildPhases = (
+				642DB6E3C4ED8AA8FDFD2A46 /* [CP] Check Pods Manifest.lock */,
+				BE56CDF61EE45D7F002DAC46 /* Sources */,
+				BE56CDF71EE45D7F002DAC46 /* Frameworks */,
+				BE56CDF81EE45D7F002DAC46 /* Resources */,
+				875E14E779BA409BAE6D3034 /* [CP] Embed Pods Frameworks */,
+				5B6DAE26DF410F644AC9A9D8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMLocationTracker;
+			productName = GMLocationTracker;
+			productReference = BE56CDFA1EE45D7F002DAC46 /* GMLocationTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE56CDF21EE45D7F002DAC46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Samuel Dost";
+				TargetAttributes = {
+					BE56CDF91EE45D7F002DAC46 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Y3RLM66FFL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE56CDF51EE45D7F002DAC46 /* Build configuration list for PBXProject "GMLocationTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE56CDF11EE45D7E002DAC46;
+			productRefGroup = BE56CDFB1EE45D7F002DAC46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE56CDF91EE45D7F002DAC46 /* GMLocationTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE56CDF81EE45D7F002DAC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE56CE081EE45D7F002DAC46 /* LaunchScreen.storyboard in Resources */,
+				BE56CE051EE45D7F002DAC46 /* Assets.xcassets in Resources */,
+				BE56CE031EE45D7F002DAC46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B6DAE26DF410F644AC9A9D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMLocationTracker/Pods-GMLocationTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		642DB6E3C4ED8AA8FDFD2A46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		875E14E779BA409BAE6D3034 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GMLocationTracker/Pods-GMLocationTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE56CDF61EE45D7F002DAC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE56CE001EE45D7F002DAC46 /* ViewController.swift in Sources */,
+				BE56CDFE1EE45D7F002DAC46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE56CE011EE45D7F002DAC46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE56CE021EE45D7F002DAC46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE56CE061EE45D7F002DAC46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE56CE071EE45D7F002DAC46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE56CE0A1EE45D7F002DAC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE56CE0B1EE45D7F002DAC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE56CE0D1EE45D7F002DAC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845121A877D3C69A9D32380A /* Pods-GMLocationTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3RLM66FFL;
+				INFOPLIST_FILE = GMLocationTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sven.GMLocationTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE56CE0E1EE45D7F002DAC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41419780AA7756C1DC418616 /* Pods-GMLocationTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y3RLM66FFL;
+				INFOPLIST_FILE = GMLocationTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sven.GMLocationTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE56CDF51EE45D7F002DAC46 /* Build configuration list for PBXProject "GMLocationTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE56CE0A1EE45D7F002DAC46 /* Debug */,
+				BE56CE0B1EE45D7F002DAC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE56CE0C1EE45D7F002DAC46 /* Build configuration list for PBXNativeTarget "GMLocationTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE56CE0D1EE45D7F002DAC46 /* Debug */,
+				BE56CE0E1EE45D7F002DAC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE56CDF21EE45D7F002DAC46 /* Project object */;
+}
